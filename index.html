@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hotel Booking Automation — ViralFood by Chinaglia S.R.L.</title>
+<meta name="description" content="Automate hotel booking management end to end. Reservations from Booking.com, Airbnb and direct email captured, organized and synced — with zero manual work. By ViralFood / Chinaglia S.R.L." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="ViralFood home">
+      <img src="assets/viralfood-logo.webp" alt="ViralFood" />
+      <span class="div"></span>
+      <span class="tag">Automation Studio</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#problem">Problem</a>
+      <a href="#solution">Solution</a>
+      <a href="#how">How it works</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#why">Why us</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost ghost-hide" href="mailto:info@chinagliafederico.com">Email us</a>
+      <a class="btn btn-primary" href="#demo">Request a demo</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow reveal">Hotel Booking Automation</span>
+        <h1 class="reveal d1">Every reservation handled <span class="hl">automatically.</span> Zero manual work.</h1>
+        <p class="lede reveal d2">We turn your booking inbox into a fully automated operation. Reservations from Booking.com, Airbnb and direct email are captured, structured, assigned and synced to your calendar — the moment they arrive. No copy-paste. No double bookings. No missed emails.</p>
+        <div class="hero-cta reveal d3">
+          <a class="btn btn-primary" href="#demo">Request a demo <span class="arrow">→</span></a>
+          <a class="btn btn-ghost" href="#how">See how it works</a>
+        </div>
+        <div class="hero-tags reveal d4">
+          <span class="tagchip">Hotels</span>
+          <span class="tagchip">B&amp;Bs</span>
+          <span class="tagchip">Guest houses</span>
+          <span class="tagchip">Apartment rentals</span>
+          <span class="tagchip">Airbnb hosts</span>
+          <span class="tagchip">Property managers</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal d2">
+        <div class="flowcard">
+          <div class="fc-head">
+            <div class="fc-dots"><i></i><i></i><i></i></div>
+            <span class="fc-live"><span class="pulse"></span>LIVE · AUTO-PILOT</span>
+          </div>
+          <div class="pipe">
+            <div class="pnode">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+              <span><span class="lbl">New booking email</span><br><span class="sub">Booking.com · Airbnb · Direct</span></span>
+              <span class="meta">00:00</span>
+            </div>
+            <div class="connector"><span class="line"></span></div>
+            <div class="pnode">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v4H4z"/><path d="M9 12h11M9 16h11M4 12h.01M4 16h.01"/></svg></span>
+              <span><span class="lbl">Details extracted</span><br><span class="sub">Guest · dates · room · price</span></span>
+              <span class="meta">00:01</span>
+            </div>
+            <div class="connector"><span class="line"></span></div>
+            <div class="pnode accent">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <span><span class="lbl">Saved &amp; calendar synced</span><br><span class="sub">Room assigned · no conflicts</span></span>
+              <span class="meta">00:02</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTEGRATIONS STRIP ============ -->
+<section class="logos">
+  <div class="wrap">
+    <span class="lab">Plugs into the tools you already run on</span>
+    <span class="logo-item">Booking<b>.</b>com</span>
+    <span class="logo-item">Airbnb</span>
+    <span class="logo-item">Gmail</span>
+    <span class="logo-item">Outlook</span>
+    <span class="logo-item">Google&nbsp;Sheets</span>
+    <span class="logo-item">Google&nbsp;Calendar</span>
+  </div>
+</section>
+
+<!-- ============ PROBLEM ============ -->
+<section class="section" id="problem">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">The problem</span>
+      <h2>Reservations arrive faster than your team can process them.</h2>
+      <p class="lede">Every booking still passes through human hands — read, re-typed, confirmed, and reconciled across tools that don't talk to each other. It's slow, it's fragile, and it doesn't scale.</p>
+    </div>
+    <div class="pain-grid">
+      <div class="pain reveal d1">
+        <span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+        <h3>Scattered across inboxes</h3>
+        <p>Booking.com, Airbnb and direct emails all land in different places, in different formats, at all hours.</p>
+      </div>
+      <div class="pain reveal d2">
+        <span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span>
+        <h3>Re-typed by hand</h3>
+        <p>Guest names, dates and room types get copied into Excel, sheets or paper — one reservation at a time.</p>
+      </div>
+      <div class="pain reveal d3">
+        <span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <h3>Slow confirmations</h3>
+        <p>Manual calls and replies delay guests and tie up staff who should be running the property.</p>
+      </div>
+      <div class="pain reveal d1">
+        <span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4M12 17h.01"/></svg></span>
+        <h3>Costly mistakes</h3>
+        <p>Typos, missed emails and overlapping stays turn into double bookings and unhappy guests.</p>
+      </div>
+      <div class="pain reveal d2">
+        <span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12a9 9 0 1 1-9-9"/><path d="M21 3v6h-6"/></svg></span>
+        <h3>No single source of truth</h3>
+        <p>Calendars and spreadsheets drift out of sync, so nobody is quite sure what's actually available.</p>
+      </div>
+      <div class="pain reveal d3">
+        <span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 22h14M5 2h14M17 22v-4.2a2 2 0 0 0-.6-1.4L12 12l-4.4 4.4a2 2 0 0 0-.6 1.4V22M7 2v4.2a2 2 0 0 0 .6 1.4L12 12l4.4-4.4A2 2 0 0 0 17 6.2V2"/></svg></span>
+        <h3>Hours drained every week</h3>
+        <p>Repetitive admin eats the time you should spend on guests, revenue and growing the business.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOLUTION ============ -->
+<section class="section bg-mist" id="solution">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">The solution</span>
+      <h2>One system that runs your booking operations end to end.</h2>
+      <p class="lede">We build an automated pipeline around the tools you already use. It listens for reservations, reads them, organizes them and keeps your availability perfectly in sync — completely hands-off.</p>
+    </div>
+    <div class="split">
+      <ul class="check-list reveal d1">
+        <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span><span class="ct"><b>Detects booking emails automatically</b><span>The second a reservation arrives from any channel.</span></span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span><span class="ct"><b>Extracts every detail instantly</b><span>Guest, dates, room type, price and channel — structured, not scraped by hand.</span></span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span><span class="ct"><b>Stores data in a structured system</b><span>Clean rows in Google Sheets or your database — formatted and deduplicated.</span></span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span><span class="ct"><b>Assigns rooms &amp; availability</b><span>Inventory updates automatically, so two guests never get the same room.</span></span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span><span class="ct"><b>Syncs your calendar in real time</b><span>Your team sees an accurate, up-to-the-minute picture at all times.</span></span></li>
+        <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span><span class="ct"><b>Eliminates manual entry completely</b><span>No copy-paste, no spreadsheets by hand, no missed reservations.</span></span></li>
+      </ul>
+
+      <div class="syspanel reveal d2">
+        <div class="sp-top">
+          <div class="fc-dots"><i></i><i></i><i></i></div>
+          <span class="tt">reservations.sheet · auto-updated</span>
+        </div>
+        <div class="sp-body">
+          <table class="sheet">
+            <thead><tr><th>Guest</th><th>Check-in</th><th>Room</th><th>Channel</th><th>Status</th></tr></thead>
+            <tbody>
+              <tr><td>M. Rossi</td><td>12 Jun</td><td>Deluxe 204</td><td><span class="pill b">Booking</span></td><td><span class="pill">Confirmed</span></td></tr>
+              <tr><td>A. Bauer</td><td>12 Jun</td><td>Suite 301</td><td><span class="pill b">Direct</span></td><td><span class="pill">Confirmed</span></td></tr>
+              <tr class="new"><td>L. Moreau</td><td>13 Jun</td><td>Double 112</td><td><span class="pill b">Airbnb</span></td><td><span class="pill">Confirmed</span></td></tr>
+              <tr><td>J. Smith</td><td>14 Jun</td><td>Deluxe 205</td><td><span class="pill b">Booking</span></td><td><span class="pill">Confirmed</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">How it works</span>
+      <h2>From inbox to confirmed — in seconds, without you.</h2>
+      <p class="lede">Five automated steps replace an entire manual workflow. Once it's set up, it simply runs.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal d1"><div class="num">01</div><h3>Detect</h3><p>A reservation lands from Booking.com, Airbnb or direct email. The system catches it instantly, 24/7.</p></div>
+      <div class="step reveal d2"><div class="num">02</div><h3>Extract</h3><p>Guest name, dates, room type, price and channel are read and structured automatically.</p></div>
+      <div class="step reveal d3"><div class="num">03</div><h3>Organize</h3><p>Clean data flows into your Google Sheet or database — formatted, deduplicated, ready to use.</p></div>
+      <div class="step reveal d4"><div class="num">04</div><h3>Assign</h3><p>Rooms and availability update automatically. Overlaps are flagged before they become double bookings.</p></div>
+      <div class="step reveal d5"><div class="num">05</div><h3>Sync</h3><p>Your calendar reflects the booking in real time, ready for your team to act on.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISUAL DEMO ============ -->
+<section class="section bg-mist" id="demo-visual">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">See it work</span>
+      <h2>A raw booking email becomes a clean, organized reservation.</h2>
+      <p class="lede">Here's the exact transformation the automation performs on every message — no human in the loop.</p>
+    </div>
+    <div class="demo">
+      <div class="demo-card reveal d1">
+        <div class="dc-head"><span class="badge raw">RAW EMAIL</span><span class="from">no-reply@booking.com</span></div>
+        <div class="dc-body">
+          <div class="email-meta"><b>Subject:</b> New reservation (4872013) — your property</div>
+          <div class="email-raw">Dear Partner,
+
+You have a new booking.
+
+Guest: <span class="h">Laure Moreau</span>
+Check-in: <span class="h">13 June 2026</span>
+Check-out: <span class="h">15 June 2026</span>
+Guests: 2 adults
+Room: <span class="h">Double Room</span>
+Total: <span class="h">€248.00</span>
+Reference: 4872013</div>
+        </div>
+      </div>
+
+      <div class="demo-arrow reveal d2">
+        <span class="circ"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span>
+      </div>
+
+      <div class="demo-card reveal d3">
+        <div class="dc-head"><span class="badge clean">STRUCTURED RECORD</span><span class="from">reservations.sheet</span></div>
+        <div class="dc-body">
+          <div class="field-row"><span class="k">Guest</span><span class="v">Laure Moreau</span></div>
+          <div class="field-row"><span class="k">Dates</span><span class="v">13 → 15 Jun 2026</span></div>
+          <div class="field-row"><span class="k">Room</span><span class="v">Double 112 <span class="pill">auto-assigned</span></span></div>
+          <div class="field-row"><span class="k">Channel</span><span class="v">Airbnb</span></div>
+          <div class="field-row"><span class="k">Total</span><span class="v">€248.00</span></div>
+          <div class="field-row"><span class="k">Status</span><span class="v"><span class="pill">Confirmed · synced</span></span></div>
+        </div>
+      </div>
+    </div>
+    <p class="demo-foot reveal">Average end-to-end processing time: <b>under 3 seconds</b> — running around the clock.</p>
+  </div>
+</section>
+
+<!-- ============ BENEFITS ============ -->
+<section class="section" id="benefits">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">The payoff</span>
+      <h2>Less admin. Fewer errors. Room to grow.</h2>
+      <p class="lede">Automation doesn't just save time — it removes an entire category of operational risk from your business.</p>
+    </div>
+    <div class="benefits">
+      <div class="benefit reveal d1">
+        <span class="bi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <h3>Hours back every week</h3>
+        <p>Reclaim the time your team spends copy-pasting reservations and chasing confirmations.</p>
+      </div>
+      <div class="benefit reveal d2">
+        <span class="bi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3 4 6v6c0 5 3.5 7.5 8 9 4.5-1.5 8-4 8-9V6Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <h3>Zero double bookings</h3>
+        <p>Availability stays accurate across every channel, so the same room is never sold twice.</p>
+      </div>
+      <div class="benefit reveal d3">
+        <span class="bi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+        <h3>No missed reservations</h3>
+        <p>Every email is caught and logged the moment it arrives — day, night and weekend.</p>
+      </div>
+      <div class="benefit reveal d1">
+        <span class="bi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 11V6a3 3 0 0 1 6 0v5"/><rect x="5" y="11" width="14" height="10" rx="2"/></svg></span>
+        <h3>Error-free data</h3>
+        <p>Guest details are captured exactly as sent — no typos, no transcription mistakes, ever.</p>
+      </div>
+      <div class="benefit reveal d2">
+        <span class="bi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></span>
+        <h3>Scales with you</h3>
+        <p>Handle 10 or 1,000 bookings a month without adding headcount or extra admin.</p>
+      </div>
+      <div class="benefit reveal d3">
+        <span class="bi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></span>
+        <h3>Real-time clarity</h3>
+        <p>One source of truth your whole team can trust — calendars and sheets always in sync.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST / WHY US ============ -->
+<section class="section bg-mist" id="why">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Why ViralFood</span>
+      <h2>Built and run by Chinaglia&nbsp;S.R.L. — the team behind ViralFood.</h2>
+      <p class="lede">We're an Italian automation studio. We design the system around your existing operation — your channels, your rooms, your workflow — not a rigid, one-size-fits-all template.</p>
+    </div>
+    <div class="trust-grid">
+      <div class="trust reveal d1">
+        <span class="ti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2 4 5v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V5Z"/></svg></span>
+        <h3>Tailored to your operation</h3>
+        <p>We map your channels, room inventory and process first, then automate around exactly how you work today.</p>
+      </div>
+      <div class="trust reveal d2">
+        <span class="ti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></span>
+        <h3>Your tools, your data</h3>
+        <p>It runs on the platforms you already use. Your reservation data stays in your systems — never locked into ours.</p>
+      </div>
+      <div class="trust reveal d3">
+        <span class="ti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg></span>
+        <h3>Done-for-you setup</h3>
+        <p>We build, connect and test the entire pipeline, hand it over working, and stay on to support and refine it.</p>
+      </div>
+    </div>
+    <div class="trust-note reveal">
+      <span class="lock"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M9 11V6a3 3 0 0 1 6 0v5"/></svg></span>
+      Private &amp; secure by design — your data flows only between the tools you authorize.
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA / FORM ============ -->
+<section class="section cta" id="demo">
+  <div class="wrap">
+    <div class="cta-grid">
+      <div class="cta-copy">
+        <span class="eyebrow">Request a demo</span>
+        <h2>See your booking workflow run itself.</h2>
+        <p class="lede">Tell us about your property and we'll show you exactly how the automation would handle your reservations — on your channels, with your data. No obligation, no pressure.</p>
+        <ul class="cta-points">
+          <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span>A walkthrough mapped to your actual setup</li>
+          <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span>A clear view of the time and errors you'd remove</li>
+          <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span>Straight answers — we build it, or we tell you it won't fit</li>
+        </ul>
+        <div class="cta-direct">
+          <a href="mailto:info@chinagliafederico.com"><span class="ci"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>info@chinagliafederico.com</a>
+          <a href="tel:+393519399451"><span class="ci"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2Z"/></svg></span>+39 351 939 9451</a>
+        </div>
+      </div>
+
+      <div class="form-card reveal d2">
+        <form id="demoForm" data-lead data-form-type="demo request" novalidate>
+          <h3>Book your free demo</h3>
+          <p class="fsub">We'll reply within one business day.</p>
+          <!-- honeypot: hidden anti-spam field, real users leave it empty -->
+          <div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" /></label></div>
+          <div class="fgrid">
+            <div class="field">
+              <label for="name">Full name <span class="req">*</span></label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="req">*</span></label>
+              <input id="email" name="email" type="email" placeholder="you@property.com" required />
+            </div>
+            <div class="field">
+              <label for="property">Property type <span class="req">*</span></label>
+              <select id="property" name="property" required>
+                <option value="" disabled selected>Select…</option>
+                <option>Hotel</option>
+                <option>B&amp;B</option>
+                <option>Guest house</option>
+                <option>Apartment rentals</option>
+                <option>Airbnb host</option>
+                <option>Property manager</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="rooms">Rooms / units</label>
+              <input id="rooms" name="rooms" type="text" placeholder="e.g. 12" />
+            </div>
+            <div class="field full">
+              <label for="message">What's your booking process today?</label>
+              <textarea id="message" name="message" placeholder="Channels you use, how reservations reach you, where they're stored…"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Request my demo <span class="arrow">→</span></button>
+          <p class="form-error" id="formError">Something went wrong sending your request. Please try again, or email us directly at <b>info@chinagliafederico.com</b>.</p>
+          <p class="form-foot">By submitting, you agree to be contacted about your request. We never share your details.</p>
+        </form>
+        <div class="form-ok" id="formOk">
+          <div class="okmark"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <h3>Request received — thank you!</h3>
+          <p class="fsub" style="margin-top:8px">Your details are on their way to our team. We'll get back to you within one business day at the email you provided. Need us sooner? Write to <b>info@chinagliafederico.com</b>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/viralfood-logo-light.png" alt="ViralFood" />
+        <p>Hotel booking automation by ViralFood — a Chinaglia S.R.L. studio. We remove manual work from hospitality operations, end to end.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <a href="#problem">The problem</a>
+        <a href="#solution">The solution</a>
+        <a href="#how">How it works</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#demo">Request a demo</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:info@chinagliafederico.com">info@chinagliafederico.com</a>
+        <a href="tel:+393519399451">+39 351 939 9451</a>
+        <a href="https://www.viralfood.it/" target="_blank" rel="noopener">www.viralfood.it</a>
+        <p>Via Donizetti 20,<br>Piove di Sacco 35028 (PD), Italy</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div class="legal">
+        <span><b>Chinaglia&nbsp;S.R.L.</b></span>
+        <span>P.IVA: 05725880289</span>
+        <span>SDI: 660ZKW1</span>
+      </div>
+      <span class="cp">© 2026 Chinaglia S.R.L. — All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ SCRIPTS ============ -->
+<script src="config.js"></script>
+<script>
+  // header shadow on scroll
+  const header = document.getElementById('header');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+
+  // reveal on scroll — with safety fallbacks so content is never left hidden
+  const revealEls = Array.from(document.querySelectorAll('.reveal'));
+  const revealNow = el => el.classList.add('in');
+  const inView = el => {
+    const r = el.getBoundingClientRect();
+    return r.top < (window.innerHeight || 0) + 80 && r.bottom > 0;
+  };
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ revealNow(e.target); io.unobserve(e.target); } });
+    }, {threshold:0.08, rootMargin:'0px 0px -6% 0px'});
+    revealEls.forEach(el=>io.observe(el));
+    // reveal anything already on screen immediately
+    revealEls.forEach(el=>{ if(inView(el)) revealNow(el); });
+    // hard safety net: if the observer never fires (some embedded previews), show everything
+    setTimeout(()=>{ document.querySelectorAll('.reveal:not(.in)').forEach(revealNow); }, 1200);
+  } else {
+    revealEls.forEach(revealNow);
+  }
+
+  // ===== Lead capture: POST to backend (Google Apps Script) =====
+  // Endpoint is set in config.js (window.LEAD_ENDPOINT). Until you paste your
+  // deployed URL there, the form falls back to opening the visitor's email app.
+  const LEAD_ENDPOINT = (window.LEAD_ENDPOINT || '').trim();
+
+  function mailtoFallback(form){
+    const d = new FormData(form);
+    const get = k => (d.get(k)||'').toString().trim();
+    const subject = `Demo request — Hotel Booking Automation (${get('property')||'Property'})`;
+    const body =
+`Hello ViralFood team,
+
+I'd like a demo of the hotel booking automation system.
+
+Name: ${get('name')}
+Email: ${get('email')}
+Property type: ${get('property')}
+Rooms / units: ${get('rooms')||'—'}
+
+Current booking process:
+${get('message')||'—'}
+
+Thank you.`;
+    window.location.href = `mailto:info@chinagliafederico.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+
+  document.querySelectorAll('form[data-lead]').forEach((form)=>{
+    const btn = form.querySelector('[type="submit"]');
+    const okEl = form.parentElement.querySelector('.form-ok');
+    const errEl = form.querySelector('.form-error');
+
+    form.addEventListener('submit', async (ev)=>{
+      ev.preventDefault();
+      if(errEl) errEl.classList.remove('show');
+
+      // native validation
+      if(!form.checkValidity()){ form.reportValidity(); return; }
+      // honeypot — silently drop bots
+      const hp = form.querySelector('[name="_gotcha"]');
+      if(hp && hp.value){ form.style.display='none'; if(okEl) okEl.classList.add('show'); return; }
+
+      // gather all fields + metadata
+      const data = new URLSearchParams();
+      new FormData(form).forEach((v,k)=>{ if(k !== '_gotcha') data.append(k, v); });
+      data.append('formType', form.getAttribute('data-form-type') || 'demo request');
+      data.append('submittedAt', new Date().toISOString());
+      data.append('pageUrl', location.href);
+
+      // no endpoint configured yet → graceful email fallback
+      if(!LEAD_ENDPOINT){ mailtoFallback(form); form.style.display='none'; if(okEl) okEl.classList.add('show'); return; }
+
+      const original = btn ? btn.innerHTML : '';
+      if(btn){ btn.disabled = true; btn.dataset.busy = '1'; btn.innerHTML = 'Sending…'; }
+
+      try {
+        // no-cors keeps the request "simple" (no preflight) so Apps Script accepts it.
+        // We can't read the response in this mode, so we treat a completed POST as success.
+        await fetch(LEAD_ENDPOINT, { method:'POST', mode:'no-cors', body:data });
+        form.style.display = 'none';
+        if(okEl) okEl.classList.add('show');
+      } catch(err){
+        if(btn){ btn.disabled = false; btn.innerHTML = original; delete btn.dataset.busy; }
+        if(errEl) errEl.classList.add('show');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
