@@ -8,4 +8,4 @@
    the visitor's email app addressed to info@chinagliafederico.com.
    ============================================================ */
 
-window.LEAD_ENDPOINT = ""; // e.g. "https://script.google.com/macros/s/AKfycb..../exec"
+window.LEAD_ENDPOINT = "https://script.google.com/macros/s/AKfycbxEaecmQwATDpQsizliicn1gdN7-2jOHaEYORycLQkuJ6Q6DFKbKyGkHDcNDgVoDdyahA/exec"; // e.g. "https://script.google.com/macros/s/AKfycb..../exec"
